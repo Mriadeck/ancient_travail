@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.nav-item:hover {
+  background-color: blue !important;
+  border-bottom: white solid 2px;
+}
+
+.nav-item {
+  background-color: rgb(37, 37, 37) !important;
+}
+
+#header {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 0 !important;
+  position: sticky !important;
+}
+
+#orange {
+  background-color: rgb(255, 111, 0) !important;
+}
+
+.violet {
+  background-color: purple !important;
+}
+
+#collapsibleNavbar {
+  position: absolute;
+  right: 0;
+}
+
+.form-control {
+  background-color: #0d6efd !important;
+  border: none;
+}
+
+button {
+  color: white !important;
+}
+
+.noir {
+  background-color: rgb(58, 60, 71) !important;
+}
+
+
+
+h1, h2, h3, h4, p {
+  color: white !important;
+}
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#z {
+  background-color: gray;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+
+#h1 {
+  text-align: center;
+}
+
+.nav-link {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.accordion {
+  background-color: rgb(58, 60, 71);
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+.container {
+  background-color: rgb(41, 41, 41);
+  color: white;
+}
+
+#progression {
+  background-color: rgb(58, 60, 71);
+}
+
+.card {
+  background-color: rgb(41, 41, 41) !important;
+  margin: 10px 10px 10px 10px;
+  padding: 60px;
+}
+
+#Compétences_prof {
+  background-color: rgb(58, 60, 71);
+  padding: 60px;
+}
+
+body {
+  background-color: rgb(80, 80, 80) !important;
+}
+
+.image11 {
+  width: 100%;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.images .img {
+  width: 30%;
+}
+
+.image11:hover {
+  width: 105%;
+  transition: 1s;
+}
+
+.imghovereffect {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.imghover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 1200px;
+  padding: 80px 0px 80px 80px;
+  position: absolute;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transition: 1s;
+}
+
+.imghovereffect:hover .imghover {
+  right: 0px;
+  transition: 1s;
+}
+
+.lelogo{
+  height: 50px !important;
+}
+
+#abc {
+  height: 250px;
+}/*# sourceMappingURL=exo_scss.css.map */

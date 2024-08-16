@@ -1,0 +1,127 @@
+@import"variables";
+.nav-item:hover{
+    background-color: blue !important;
+    border-bottom: $blanc solid 2px;
+}
+.nav-item{
+    background-color: $sfdf !important;
+}
+#header{
+    display: flex !important;
+    flex-direction:column !important;
+    padding: 0 !important;
+    position: sticky !important;
+}
+#orange{
+    background-color: rgb(255, 111, 0) !important;
+}
+.violet{
+    background-color: purple !important;
+}
+#collapsibleNavbar{
+    position: absolute;
+    right: 0;
+}
+.form-control{
+    background-color: #0d6efd !important;
+    border: none;
+}
+button{
+    color: $blanc !important;
+}
+.noir{
+    background-color: $aze !important;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .img{
+        width: 30%;
+    }
+}
+h1,h2,h3,h4,p{
+    color: $blanc !important;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#z{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+}
+#h1{
+    text-align: center;
+}
+.nav-link{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+.accordion{
+    background-color: $aze;
+}
+.nav-link:hover{
+    color: $blanc !important;
+}
+.container{
+    background-color: $xvv;
+    color: $blanc;
+}
+#progression{
+    background-color: $aze;
+}
+.card{
+    background-color: $xvv !important;
+    margin: 10px 10px 10px 10px;
+    padding: 60px;
+}
+#Compétences_prof{
+    background-color: $aze;
+    padding: 60px;
+}
+body{
+    background-color: $body !important;
+}
+.image11
+{
+    width: 100%;
+}
+.image11:hover{
+    width: 105%;
+    transition: 1s;
+}
+.imghovereffect
+{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+}
+.imghover
+{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 1200px;
+    padding: 80px 0px 80px 80px;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    transition: 1s;
+}
+.imghovereffect:hover .imghover
+{
+    right: 0px;
+    transition: 1s;
+
+}
+
+#abc{
+    height: 250px;
+
+}
